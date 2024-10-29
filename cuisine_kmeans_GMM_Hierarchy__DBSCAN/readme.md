@@ -2,6 +2,9 @@
   - The ingredients dataset has clear region boundary, from the same region cuisines have similar ingredients.
   - The Flavor dataset has no region boundary, as different cuisines share common flavors.
 
+![image](https://github.com/user-attachments/assets/e7adbbdd-b748-4e54-8e38-be8988747fe1)
+
+
 ## Part 2 : PCA Analysis
   - For the original ingredients dataset (yummly_ingrX.pkl), the dataset originally contained 236 dimensions. After applying PCA, 208 components were retained, capturing 95% of the variance in the data. The percentage contribution of each component is detailed in the corresponding output section.
   - For the original flavor dataset (yum_tfidf.pkl), the dataset originally had 1108 dimensions. Following PCA, 98 components were retained, also capturing 95% of the variance. The percentage contribution of each component is similarly listed in the corresponding output section.
