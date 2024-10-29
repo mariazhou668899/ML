@@ -1,5 +1,5 @@
 # Self-Learning Experiment: Brain Events Prediction via WaveNet Using RAW EEG Features
-This notebook explores using WaveNet to predict brain events based on raw EEG waveforms in Kaggle's Brain competition. The main objective is to assess how effectively WaveNet can learn patterns in brain activity from minimal EEG features. This notebook achieves a Cross-Validation (CV) score of 0.91 and a Leaderboard (LB) score of 0.66. As a benchmark, predicting train means yields CV 1.26 and LB 0.97, indicating that WaveNet is successfully learning relevant patterns in EEG signals to make predictions.
+This notebook explores using WaveNet to predict brain events based on raw EEG waveforms. The main objective is to assess how effectively WaveNet can learn patterns in brain activity from minimal EEG features. This notebook achieves a Cross-Validation (CV) score of 0.91 and a Leaderboard (LB) score of 0.66. As a benchmark, predicting train means yields CV 1.26 and LB 0.97, indicating that WaveNet is successfully learning relevant patterns in EEG signals to make predictions.
 
 ## Experiment Goals:
 - Assess WaveNet's Ability to Predict Brain Events: By using just two EEG features, we aim to see how well WaveNet can capture temporal patterns in EEG data.
